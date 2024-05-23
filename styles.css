@@ -9,7 +9,7 @@ body {
 
 header {
     background: #1f2937;
-    padding: 0 50px;
+    padding: 5px 50px;
 }
 
 nav {
@@ -176,6 +176,11 @@ figcaption {
 
 .call-to-action-message {
     align-items: center;
+}
+
+.call-text {
+    font-size: 18px;
+    margin-bottom: -20px;
 }
 
 .call {
