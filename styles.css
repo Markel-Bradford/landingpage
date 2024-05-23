@@ -96,6 +96,8 @@ ul {
 
 #option-title {
     text-align: center;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .option-imgs {
@@ -148,3 +150,38 @@ background: #E5E7EB ;
 }
 
 /*Call to Action styles*/
+
+.call-to-action-container {
+    padding: 75px 50px 75px 50px;
+}
+
+.call-to-action {
+    display: flex;
+    background: #3882f6;
+    max-width: 800px;
+    border-radius: 6px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    color: #f9Faf8;
+}
+
+.call-to-action-message {
+    align-items: center;
+}
+
+.call {
+    border: 2px solid #f9Faf8;
+}
+
+/*Footer styles*/
+footer {
+    background: #1f2937;
+    color: #E5E7EB;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
