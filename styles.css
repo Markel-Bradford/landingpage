@@ -17,11 +17,13 @@ nav {
     justify-content: space-between;
     align-items: center;
     max-width: 1500px;
+    height: 40px;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 600;
 }
 
 ul {
@@ -80,4 +82,28 @@ ul {
    color: #fff;
    font-weight: 600;
    cursor: pointer;
+}
+
+/*Options section*/
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 10px 50px 50px 50px;
+    margin: 0 auto;
+}
+
+#option-title {
+    text-align: center;
+}
+
+.option-imgs {
+display: flex;
+gap: 25px;
+}
+
+.option-img {
+    flex: 1 1 auto;
+    width: 10%;
 }
