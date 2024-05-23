@@ -99,11 +99,52 @@ ul {
 }
 
 .option-imgs {
-display: flex;
-gap: 25px;
+    display: flex;
+    gap: 25px;
+    margin: 25px auto 50px auto;
 }
 
 .option-img {
-    flex: 1 1 auto;
-    width: 10%;
+    display: flex;
+    height: 175px;
+    width: 175px;
+    border-radius: 8px;
+    border: 2px solid ;
+    margin-bottom: 10px;
 }
+
+.option-img:hover {
+    transform: scale(1.1);
+    border: 2px solid #3882f6;
+    cursor: pointer;
+}
+
+/*Quote styles*/
+.quote-section {
+background: #E5E7EB ;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 75px 50px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 100;
+    font-style: italic;
+    max-width: 800px;
+}
+
+.quote-origin {
+    font-weight: 600;
+    max-width: 800px;
+    text-align: right;
+    margin-top: -25px;
+}
+
+/*Call to Action styles*/
