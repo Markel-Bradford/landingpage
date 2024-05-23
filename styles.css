@@ -8,6 +8,7 @@ body {
 
 header {
     background: #1f2937;
+    padding: 0 50px;
 }
 
 nav {
@@ -15,7 +16,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    max-width: 1500px;
 }
 
 .logo {
@@ -33,3 +34,50 @@ ul {
 
 /*Hero styles*/
 
+.hero-section {
+    background: #1f2937;
+    padding: 50px 50px 100px 50px;
+}
+
+.hero-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    color: #f9Faf8;
+    width: 0%;
+    margin: 0 auto;
+    flex: 1 1 0;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: -25px;
+}
+
+.hero-img {
+    display: flex;
+    flex: 1 1 0;
+    width: 50%;
+}
+
+.sign-up {
+   background: #3882f6; 
+   border-radius: 8px;
+   border: none;
+   padding: 5px 20px;
+   color: #fff;
+   font-weight: 600;
+   cursor: pointer;
+}
