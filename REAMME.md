@@ -1,0 +1,2 @@
+# Landing Page
+This project was to replicate a landing page based off of the image provided by the Odin Project. The purpose was to get used to using flexbox and flex options, as well as reinforce HTML and CSS understanding. 
